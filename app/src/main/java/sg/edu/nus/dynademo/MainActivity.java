@@ -33,9 +33,9 @@ public class MainActivity extends Activity implements LocationListener {
     private Button saveBtn;
     private AmazonDynamoDBClient ddbClient;
     private DynamoDBMapper mapper;
-    private static final Regions MY_REGION = Regions.US_EAST_1;
+    private static final Regions MY_REGION = YOUR_REGION;
     private CognitoCachingCredentialsProvider credentialsProvider;
-    private static final String COGNITO_POOL_ID = "us-east-1:7d6bf1bc-6f56-4ec5-8a36-7aaa48fec991";
+    private static final String COGNITO_POOL_ID = YOUR_POOL_ID;
     private String android_id;
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
     private LocationManager locationManager;
